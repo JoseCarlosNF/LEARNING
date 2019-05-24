@@ -1,0 +1,21 @@
+#!/usr/bin/perl
+# file.pl
+
+use MIME::Base64;
+eval(decode_base64('
+IyEvdXNyL2Jpbi9wZXJsDQojIE1hbmlwdWxhdGlv
+biBvZiBhcmNoaXZlcw0KDQokYXJjaGl2ZSA9ICJM
+ZWFybmluZ1BlcmwvZmlsZS50eHQiOyAgICAgIyBm
+aWxlIGxvY2F0aW9uLg0Kb3BlbihBUlEsICRhcmNo
+aXZlKTsgICAgICAgICAgICAgICAgICAgICMgY29t
+bWFuZCBmb3Igb3BlbiBmaWxlLiBBUlEgaXMgYSBm
+aWxlaGFuZGluZyAoYXBlbGlkbyBkbyBhcnF1aXZv
+KSBjYW4gYmUgY2hhbmdlZC4NCkBsaW5lcyA9IDxB
+UlE+OyAgICAgICAgICAgICAgICAgICAgICAgICAj
+IGdldCBjb250ZW50IG9mIGZpbGUuDQpjbG9zZShB
+UlEpOyAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgIyBjb21tYW5kIGZvciBjbG9zZSBmaWxlLg0K
+cHJpbnQgQGxpbmVzOyAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICMgcHJpbnQgYXJyYXkgd2hpdCBm
+aWxlIGNvbnRlbnRzLg==
+'));
