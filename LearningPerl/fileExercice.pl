@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 
-$file = "/home/jose/LEARNING/LearningPerl/file.1.txt";
+$file = "/home/jose/LEARNING/LearningPerl/file.txt";
 open(FILE, $file);
 @lines = <FILE>;
-print @lines[1];
+foreach $line (@lines){
+    print "# $line";
+}
